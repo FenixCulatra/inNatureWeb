@@ -11,7 +11,7 @@ header.innerHTML = `<nav class="navbar d-inline p-0">
 
     <!-- Logo -->
     <a href="index.html" class="navbar-brand">
-        <img class="tamanhoLogo" src="img/logo.png" alt="">
+        <img class="tamanhoLogo" src="https://fenixculatra.github.io/inNatureWeb/inNature2/img/logo.png" alt="">
     </a>
     
     <!-- Início da Barra de Pesquisa -->
@@ -64,7 +64,7 @@ header.innerHTML = `<nav class="navbar d-inline p-0">
             <div class="modal-header border-bottom-0 bg-primaria">
                     <div class="modal-title" id="modalTitleId">
                         <a href="#" class="navbar-brand ms-2 me-auto">
-                            <img class="tamanhoLogo" src="img/logo.png" alt="">
+                            <img class="tamanhoLogo" src="https://fenixculatra.github.io/inNatureWeb/inNature2/img/logo.png" alt="">
                         </a>
                     </div>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -142,7 +142,7 @@ modalId.addEventListener('show.bs.modal', function (event) {
 `;
  
 footer.innerHTML = `<div class="container-fluid flex-row">
-<img class="tamanhoLogo" src="img/logo.png" alt="">
+<img class="tamanhoLogo" src="https://fenixculatra.github.io/inNatureWeb/inNature2/img/logo.png" alt="">
 <ul class="list-group list-group-horizontal border-0 bg-transparent d-inline-flex me-2 ms-auto">
     <li class="list-group-item bg-transparent border-0">
         <a href="#">Precisa de ajuda?</a>
@@ -178,11 +178,11 @@ var logado = localStorage.getItem("logado");
 // console.log(fotoPerfil);
 
 if (logado == "1") {
-    fotoPerfil.src = "img/foto_padrao-verde.png";
-    usuario.href = "usuario.html";
+    fotoPerfil.src = "https://fenixculatra.github.io/inNatureWeb/inNature2/img/foto_padrao-verde.png";
+//     usuario.href = "usuario.html";
     
 } else {
-    fotoPerfil.src = "img/foto_padrao.png";
-    usuario.href = "cadastro-usuario.html";
+    fotoPerfil.src = "https://fenixculatra.github.io/inNatureWeb/inNature2/img/foto_padrao.png";
+//     usuario.href = "cadastro-usuario.html";
 }
 
